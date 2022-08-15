@@ -2,11 +2,12 @@
 <html lang=en>
   <head>
     <meta charset=utf-8>
-    <title>Munkhtulga</title>
+    <title>Munkhtulga Battogtokh</title>
     <link rel="stylesheet" href="style/main.css">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
     <script src="script/fade.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <style>
@@ -41,22 +42,24 @@
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 		<ul class="navbar-nav mx-auto">
 			<li class="nav-item">
-			<a class="nav-link active" aria-current="page" href="#">Home</a>
-			</li>
-			<li class="nav-item">
-			<a class="nav-link" href="#">Link</a>
+			<a class="nav-link active" aria-current="page" href="#">About</a>
 			</li>
 			<li class="nav-item dropdown">
 			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-				Dropdown
+				Projects
 			</a>
 			<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-				<li><a class="dropdown-item" href="#">Action</a></li>
-				<li><a class="dropdown-item" href="#">Another action</a></li>
+				<li><a class="dropdown-item" href="https://safeandtrustedai.org/person/munkhtulga-battogtokh/">Safe and Trusted AI</a></li>
+				<li><a class="dropdown-item btn disabled" href="#" disabled>AHA!</a></li>
 				<li><hr class="dropdown-divider"></li>
-				<li><a class="dropdown-item" href="#">Something else here</a></li>
+				<li><a class="dropdown-item" href="https://munkhtulgab.github.io/golden-score/">Golden Score</a></li>
 			</ul>
 			</li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+
 		</ul>
 
 		</div>
@@ -64,7 +67,213 @@
 	</nav>
 	
 
-    <div class="slide page">
+  <div class="slide page">
+    <img src="images/profile-removebg.png" style="filter: brightness(1.); background-image:linear-gradient(to bottom left, #c8c4ff, #ffc7c9); box-shadow: 1px 1px 5px grey; max-width: 400px; margin-right: auto; margin-left: auto; border-radius: 50%;">
+    <img src="images/I_am_1.svg" class="align-self-center" style="max-width: 600px;">
+    <p class="lead align-self-center" style="max-width: 800px;">
+      I am an up-and-coming AI researcher (and a part-time judoka with artistic tendencies). I like challenging conventions to a fault and living to tell the stories. I thrive among people who are passionate about whatever they do and are supportive of each other's creativity.
+    </p>
+    <p class="lead align-self-center" style="max-width: 800px;">
+      I care about learning what is truly true and giving people the knowledge, the tools, and the environments that they need to improve their own and others' experiences of life.
+    </p>
+  </div>
+
+  <div style="padding-left: 15vw; padding-right: 15vw; mb-5">
+    <div>
+      <h1>Projects</h1>
+    </div>
+
+    <p class="lead mb-5">
+      I am young and I am still exploring. I will probably never stop since I love research, discovery, and creation. 
+      I found these out through my experiences so far, a few of which I highlight below.
+    </p>
+
+    <div data-masonry='{"percentPosition": true}'>
+      
+      <div class="card" style="max-width: 400px; margin: 10px;">
+          <img style="max-width: 800px;" class="card-img-top align-self-center" src="images/STAI_logo.png">
+          <div class="card-body">
+            <h3 class="card-title">Safe and Trusted AI</p>
+            <p class="h5">PhD at King's and Imperial College</p>
+            <p class="card-text lead">Towards more explainable and scalable dialogue systems in practice.</p>
+            <a href="https://safeandtrustedai.org/person/munkhtulga-battogtokh/" class="btn btn-primary">See project</a>
+          </div>
+      </div>
+
+      <div class="card" style="max-width: 400px; margin: 10px;">
+          <img style="max-width: 800px;" class="card-img-top align-self-center" src="images/golden_score.gif">
+          <div class="card-body">
+            <h3 class="card-title">Golden Score</p>
+            <p class="h5">BSc thesis project</p>
+            <p class="card-text lead">
+              A moment of inspiration turned into not only my degree thesis but also my first scientific publication at EuroGraphics 2022...
+            </p>
+            <a href="https://munkhtulgab.github.io/golden-score/" class="btn btn-primary">See project</a>
+          </div>
+      </div>
+
+      <div class="card" style="max-width: 400px; margin: 10px;">
+        <img style="max-width: 800px; background-color: white;" class="card-img-top align-self-center" src="images/waterfall.gif">
+        <div class="card-body">
+          <h3 class="card-title">Waterfall</p>
+          <p class="h5">A mobile app for iOS and Android</p>
+          <p class="card-text lead">Pre-university exams can be brutally demanding. Waterfall allows you to make your own deck of flashcards and learn with them efficiently.</p>
+          <a href="https://waterfall.app.link" class="btn btn-primary">See project</a>
+        </div>
+      </div>
+
+      <div class="card" style="max-width: 400px; margin: 10px;">
+        <img style="max-width: 800px;" class="card-img-top align-self-center" src="">
+        <div class="card-body">
+          <h3 class="card-title">AHA!</p>
+          <p class="h5">Art Human & AI</p>
+          <p class="card-text lead">A question common to both art and AI: "What is essence?"</p>
+          <a href="#" class="btn btn-primary disabled">Coming soon</a>
+        </div>
+      </div>
+
+    </div>
+    </div>
+
+    <div style="padding-top: 10vh; padding-left: 15vw; padding-right: 15vw; width: 100%;">
+      <div>
+        <h1>Interests</h1>
+      </div>
+
+      <p class="lead">
+        In the future, I aim to work on more and more meaningful projects.
+      </p>
+
+      <p class="lead">
+        Humanity's problems are never-ending as long as we hopefully are. But thankfully for me, I will be here only a while, which narrows things down.
+        I do not know how (whether as cyborgs or as sentient machines) and where (on which planets and dimensions) humans will continue to live in the future. It is anybody's guess. 
+        
+      </p>
+
+      <p class="lead mb-5">
+        However, I <b>do</b> know the problems and the opportunities of today that our and subsequent generations depend on. Therefore, I would feel fulfilled to work on and contribute to the following important issues below.
+      </p>
+
+      <div class="row card-deck">
+        <div class="card fade text-white bg-danger mb-3" style="max-width: 19rem; margin-right: 20px; border-radius: 0; border: 0;">
+          <!-- <div class="card-header">Header</div> -->
+          <div class="card-body">
+            <h5 class="card-title">AI for good</h5>
+            <p class="card-text">
+              AI is a revolutionary technology that is yet to mature.
+              Its existential threat alone forces us to rethink everything we thought we knew.
+              Its ever-growing impact on individuals and society must be well-understood.
+              Its all-encompassing nature requires an immense amount of continuous and collaborative human effort for safeguarding all its applications.
+            </p>
+
+            <p class="card-text">
+              Personally, I study Artifical Intelligence to study intelligence itself.
+              I am fascinated by how much we take both the brilliance and the bad biases of our intelligence for granted. 
+              When inventing a new kind of intelligence surpassing our own, how do we make it work for us and how can we improve ourselves? I believe these are questions that <em>must</em> be addressed.
+            </p>
+          </div>
+        </div>
+        
+        <div class="card fade text-white bg-success mb-3" style="max-width: 19rem; margin-right: 20px; border-radius: 0; border: 0;">
+          <!-- <div class="card-header">Header</div> -->
+          <div class="card-body">
+            <h5 class="card-title">Education &amp; Storytelling</h5>
+            
+            <p class="card-text">
+              I would like to leave a long-lasting and positive impact on people's lives. 
+              One way to do that for sure is to educate.
+            </p>
+
+            <p>
+              Regardless of how and where, a human life is not possible without learning. However, learning can be really difficult.
+            </p>
+
+            <p>
+              Personally, I am extremely thankful to the people who made efforts to make learning easier and fun for me.
+              It would have been simply impossible for me to come this far without them. 
+              That is why I believe it is important to provide support to those who are willing to learn.
+            </p>
+
+            <p>
+              After first-hand experience, I believe storytelling is the best tool for learning. Animations, films, and games are all things that I have enjoyed so much growing up. 
+              These are under-exploited in education as they are. With the advent of technologies like AI personalisation, dialogue system, and VR, I am invested into the future of learning.
+            </p>
+
+          </div>
+        </div>
+
+        <div class="card fade text-white bg-primary mb-3" style="max-width: 19rem; margin-right: 20px; border-radius: 0; border: 0;">
+          <!-- <div class="card-header">Header</div> -->
+          <div class="card-body">
+            <h5 class="card-title">Sustainability</h5>
+            <p class="card-text">
+              I do not always know what is the "right" thing to do. But I do know that being alive is a prerequisite to doing anything in the first place.
+              You and I are at the mercy of nature when it comes to survival. Therefore, it is nobody's interest but our own to ensure sustainability.
+            </p>
+
+            <p class="card-text">
+              Sustainability is deeply personal to me. It is embedded into the nomadic traditions of my home country Mongolia, the loss of which has hurt families, including my own. 
+              Many have bent to modernisation. Some have broken in the sudden change. As we know, the change is global and to the most of us, it is sudden.
+            </p>
+
+            <p class="card-text">
+              This is why I am interested in both slowing down the change and helping people adapt. 
+              I am most interested in alternative energy-efficient designs of daily products like air conditioners, freezers, and cars. 
+              Working on those should truly have a lasting positive impact on people of the future and be (dare I say) <em>fun</em> for me.
+            </p>
+          </div>
+        </div>
+
+        <div class="card fade text-white bg-info mb-3" style="max-width: 19rem; margin-right: 20px; border-radius: 0; border: 0;">
+          <!-- <div class="card-header">Header</div> -->
+          <div class="card-body">
+            <h5 class="card-title">Digital Economy</h5>
+            <p class="card-text">
+              Things that once took months to be delivered by camel caravans and horsebacks to traverse the legendary silk road,
+              now take only an instant to reach across oceans and continents.
+              Given that context, teleportation itself sounds possible next...
+            </p>
+
+            <p class="card-text">
+              On a more grounded note, there is a lot more to exploit in our relatively newfound global connectivity.
+              There are practically endless opportunities online in the borderless world of the ideal global digital economy.
+            </p>
+
+            <p class="card-text">
+              Therefore, I believe it is an important work to build digital environments that enable everyone everywhere to thrive in the real world.
+              I would like to work towards supporting those who deliver value to others while combating all forms of potential abuse (scams, misinformation, and harmful content).
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>  
+
+  <div id="contact" class="row page" style="padding-top: 10vh; padding-left: 15vw; padding-right: 15vw; width: 100%;">
+  
+    <h1>Contact me</h1>
+
+
+    <div class="text-center" > 
+      <p class="lead">Email: <a href="mailto:munkhtulga.battogtokh@kcl.ac.uk" style="text-decoration: none;">munkhtulga.battogtokh@kcl.ac.uk</a></p> 
+      <p class="lead">Phone: +447795623454</p>
+      
+      <a href="https://www.linkedin.com/in/munkhtulga-battogtokh/"><img class="align-self-center" src="images/linkedin.png" style="width: 50px"/></a>
+      <a href="mailto:munkhtulga.battogtokh@kcl.ac.uk"><img class="align-self-center" src="images/outlook.png" style="width: 50px"/></a>
+    </div>
+
+
+
+    <div class="align-self-end text-center">
+      <p class="lead">&copy; Munkhtulga Battogtokh</p>
+      <p class="lead text-muted"><small>Icons made by Pixel Perfect and Freepik from www.flaticon.com</small></p>
+    </div>
+
+  </div>
+
+    <!--  <div class="slide page">
       <img class="fade mb-5" src="images/graduation_bsc_2022.JPG" style="max-height: 70vh; object-fit: contain; width: auto;"/>
       <p class="display-6 fade">
         In 2020, I graduated from King's College London with a Bachelor of Science (1st class Honours) degree in Computer Science. My thesis was a massive success in multiple ways. This is the brief story of that success.
@@ -110,46 +319,9 @@
         Despite its difficulty, I fell in love with judo. In this project, I pay homage to just one of its many fascinating aspects: <b>beauty</b>.
       </p>
     </div>
+    -->
 
-    <div class="slide page" style="padding-right: 15vw; padding-left: 15vw">
-      <div class="row">
-        <div class="col-12 col-lg-6 fade">
-          <div class="fade">
-            <p class="display-1">Golden Score</p>
-            <p class="display-6">What motivated the project?</p>
-          </div>
-
-          <div class="fade">
-            <p class="lead">
-            Judo is an elegant form of combat. Matches can end quickly. Blink and you might miss the whole match.
-            </p>
-
-            <p class="lead">
-            Furthermore, it is really difficult to master a judo technique to the point of efficiency and effectiveness that the best in the world demonstrate. When the world and Olympic champions execute them against other world class athletes, the moment of the score is truly golden.
-            The momentary image that burns into the memories of millions of admiring spectators exhibits an expression of the human body that is bolder than the boldest of dances. Therein lies the beauty of judo, which we aim to capture in this project. 
-            </p>
-          </div>
-
-        </div>
-
-        <div class="col-12 col-lg-6 mb-5 fade">
-          <img src="images/ono_tomoe.gif" style="margin-top: 7vw; max-width: 700px;"/>
-        </div>
-
-        <div class="col-12 col-lg-6 fade">
-          <p class="lead text-muted fade">
-          I was particularly inspired by the <a href="https://www.youtube.com/watch?v=QGmH-72vnTw&ab_channel=Judo" style="text-decoration: none;">4DREPLAY</a> technology that captured judo's golden moments from all possible directions.
-          Awed upon seeing it for the first time while watching the 2019 World Championships with my father, 
-          I decided to reconstruct these scenes in 3D so that I could materialise the brilliance of the big moments (and have them on my table).
-          I immediately (and naively) tried several mobile and desktop apps to make this happen but none of them worked.
-          </p> 
-
-          <p class="display-6 fade">The rest is history...</p>
-        </div>
-
-      </div>
-    </div> 
-
+        <!--
     <div class="slide page">
       <div class="row">
         <div class="col-lg-6">
@@ -269,7 +441,7 @@
           <p class="lead text-muted"><small>Icons made by Pixel Perfect and Freepik from www.flaticon.com</small></p>
         </div>
       </div>
-    </div>
+    </div> -->
 
 </body>
 </html>
